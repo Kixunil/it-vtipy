@@ -5,4 +5,4 @@ it-vtipy.dat: it-vtipy.u8
 
 install:
 	cp it-vtipy.{dat,u8} /usr/share/games/fortunes/sk
-	ln -s it-vtipy.u8 /usr/share/games/fortunes/sk/it-vtipy
+	ln -fs it-vtipy.u8 /usr/share/games/fortunes/sk/it-vtipy
